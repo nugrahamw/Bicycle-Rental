@@ -4,7 +4,7 @@ In the notebook file, I attached the way I did the analysis from Data Wrangling,
 Besides that, I also make the dashboard using streamlit
 
 ## Preview
-![Dashboard](https://raw.githubusercontent.com/AlrezaAmror/Bike-Sharing-Analysis/main/preview1.png)
+![Dashboard](https://raw.githubusercontent.com/nugrahamw/Bicycle-Rental/main/preview1.png)
 
 ## File Structures
 ```
