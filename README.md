@@ -11,13 +11,13 @@ Besides that, I also make the dashboard using streamlit
 .
 ├── dashboard
 │   ├── dashboard.py
-│   └── logo.png
+│   └── bike.png
 ├── data
 │   ├── day.csv
 |   └── hour.csv
 ├── preview1.png
 ├── README.md
-├── notebook.ipynb
+├── Proyek_Analisis_Data.ipynb
 ├── url.txt
 └── requirements.txt
 ```
@@ -58,4 +58,4 @@ Besides that, I also make the dashboard using streamlit
     cd Bike-Sharing-Analysis-main/dashboard/
     streamlit run dashboard.py
 ## Live Demo
-[StreamlitApp]("")
+[StreamlitApp]("https://bicycle-rental-nugrahamw.streamlit.app/")
