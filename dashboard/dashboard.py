@@ -4,8 +4,8 @@ import seaborn as sns
 sns.set_color_codes('bright')
 import streamlit as st
 
-day_df = pd.read_csv('day.csv')
-hour_df = pd.read_csv('hour.csv')
+day_df = pd.read_csv('data/day.csv')
+hour_df = pd.read_csv('data/hour.csv')
 
 season_labels = {
     1 : 'springer',
@@ -58,7 +58,7 @@ min_date = day_df['dteday'].dt.date.min()
 max_date = day_df['dteday'].dt.date.max()
 
 with st.sidebar:
-    st.image('bike.png', use_column_width = True, caption = 'Bike Sharing') 
+    st.image('dashboard/bike.png', use_column_width = True, caption = 'Bike Sharing') 
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
